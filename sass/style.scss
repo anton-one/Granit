@@ -1,0 +1,35 @@
+@import "libs/bootstrap-reboot.min";
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@import "blocks/";
+
+
+
+@import "base/media";
