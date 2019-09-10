@@ -3,7 +3,7 @@
 @import "base/mixins";
 
 * {
-  font-family: "Museo Sans Cyrl", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -20,15 +20,38 @@ button:active {
   outline: none;
 }
 
+.img-m {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-w {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 .container {
-  max-width: 1200px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+@import "blocks/title-btn";
 
-@import "blocks/";
+@import "blocks/header";
+@import "blocks/head";
+@import "blocks/stock";
+@import "blocks/adv";
+@import "blocks/popular";
+@import "blocks/services";
+@import "blocks/contact";
+@import "blocks/footer";
+
+@import "blocks/modal";
+
 
 
 
