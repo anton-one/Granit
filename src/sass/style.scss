@@ -1,0 +1,59 @@
+@import "base/fonts";
+@import "libs/bootstrap-reboot.min";
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+.img-m {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-w {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "blocks/title-btn";
+
+@import "blocks/header";
+@import "blocks/head";
+@import "blocks/stock";
+@import "blocks/adv";
+@import "blocks/popular";
+@import "blocks/services";
+@import "blocks/contact";
+@import "blocks/footer";
+
+@import "blocks/modal";
+
+
+
+
+@import "base/media";
